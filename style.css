@@ -1,18 +1,25 @@
+body {
+    background-color: rgb(72, 88, 26);
+}
+
 h1 {
-    color: #111;
+    color: rgb(70, 24, 24);
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
+    font-size: 175px;
     font-weight: bold;
-    letter-spacing: -1px;
-    line-height: 1;
-    text-align: center;
+    letter-spacing: -30px;
+    line-height: -500;
+    text-align: right;
+    border-inline-end-color: orangered;
+    margin-top: 0px;
 }
 
 p {
-    color: #685206;
+    color: #ff6106;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 14px;
     line-height: 24px;
+    letter-spacing: -1px;
     margin: 0 0 24px;
     text-align: justify;
     text-justify: inter-word;
@@ -21,12 +28,16 @@ p {
 textarea {
     margin: 20px;
     width: 300px;
-    height: 150px;
+    height: 30px;
+    background-position: 500cm;
+    glyph-orientation-vertical: 3em;
+    background-color: yellowgreen;
 }
 
 ul, ol {
     margin: 20px;
-    padding: 0;
+    padding: -70;
+    background-color: purple;
 }
 
 li {
@@ -36,17 +47,18 @@ li {
    
 li:last-child {
     border: none;
+    motion-rotation: 100;
 }
 
 form {
     height:110px;
     width:190px;
     margin:auto;
-    border:1px #CCC solid;
+    border:1px rgb(5, 0, 0) dotted;
     padding:10px;
 }
     
 input, textarea {
-    padding:5px;
-    margin:5px
+    /* padding:5px; */
+    margin-inline-start: 5px;
 }
